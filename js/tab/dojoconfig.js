@@ -1,7 +1,7 @@
 var dojoConfig = {
 	async: true,
 	packages: [{
-		name: "ext",
-		location: location.pathname.replace(/\/[^/]*$/, '/../ext')
+		name: "tab",
+		location: location.pathname.replace(/\/[^/]*$/, '/../js/tab/mod')
 	}]
 };

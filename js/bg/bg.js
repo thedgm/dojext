@@ -1,4 +1,4 @@
-require(['ext/mod_bg'],function(mb){
+require(['bg/bg'],function(mb){
 	mb.hello();
 	mb.setBrowserAction();
 })

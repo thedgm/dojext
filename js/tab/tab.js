@@ -1,3 +1,3 @@
-require(['ext/mod_tab'],function(mt){
+require(['tab/tab'],function(mt){
 	mt.hello();
 })
