@@ -8,15 +8,17 @@
 	,"permissions"			: [
 						"https://ajax.googleapis.com/"
 					]
-					
+
 	,"content_security_policy"	: "script-src 'self' 'unsafe-eval' https://ajax.googleapis.com; object-src 'self'"
-	
+
 	,"browser_action"		: {
 						"default_title"	: "Dojo-Game"
 					}
-	
+
 	,"background"			: {
 						 "page"		: "html/bg.html"
 						,"scripts"	: []
 					}
+
+	,"options_page"			: "html/opt.html"
 }
