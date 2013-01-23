@@ -72,6 +72,10 @@ define(["dojo/dom", "dojo/domReady","dijit/layout/TabContainer","dijit/layout/Co
             title: tab.title,
             doLayout: false,
             nested: true,
+            closable: true,
+            onClose: function(){
+            	return confirm("Close this for real?");
+            }
         });
         dojo.forEach(tab.sub, function(sub){
             var cp = new ContentPane({
