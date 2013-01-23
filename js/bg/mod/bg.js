@@ -11,6 +11,7 @@ define(["dojo/dom"],function(dom){
 	var _browserAction_onClick = function(e){
 		chrome.tabs.create({
 			 url		: "/html/tab.html"
+//			 url		: "/html/claro.html"
 			,selected	: true
 		});
 	}
